@@ -19,7 +19,15 @@
             this.nationality = nationality;
             this.breed = breed;
         }
-        public 
+    }
+    class Monkey : Pets
+    {
+        private int cheekiness { get; set;}
+        public Monkey(bool myHair, String MyhairCol, double mySize, string mySound, string myFood, string mNati, string br, int cheek):
+            base(myHair, MyhairCol, mySize, mySound, myFood, mNati, br)
+        {
+            cheekiness = cheek;
+        }
     }
     class Program
     {
