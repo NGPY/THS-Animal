@@ -29,6 +29,24 @@
             cheekiness = cheek;
         }
     }
+    class Kangaroo : Pets
+    {
+        private double pouchSize { get; }
+        private double jumpHeight { get; }
+        public Kangaroo(bool myHair, String MyhairCol, double mySize, string mySound, string myFood, string mNati, string br, double pouchSize, double jumpHeight):
+            base(myHair, MyhairCol, mySize, mySound, myFood, mNati, br)
+        {
+            this.myHair = myHair;
+            this.MyHairCol = MyhairCol;
+            this.mySize = mySize;
+            this.mySound = mySound;
+            this.myFood = myFood;
+            this.mNati = mNati;
+            this.br = br;
+            this.jumpHeight = jumpHeight;
+            this.pouchSize = pouchSize;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
