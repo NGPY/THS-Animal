@@ -56,15 +56,16 @@
         private int gills { get;}
         private int noOfNearDeaths { get;}
         private int phPreference { get;}
-        public Fish(bool myHair, string MyhairCol, double mySize, string mySound, string myFood, string mNati, string br, int gills, int noOfNearDeaths, int phPreference) :
+        private bool tasty { get;}
+        public Fish(bool myHair, string MyhairCol, double mySize, string mySound, string myFood, string mNati, string br, int gills, int noOfNearDeaths, int phPreference, bool tasty) :
             base(myHair, MyhairCol, mySize, mySound, myFood, mNati, br)
         {
             this.gills = gills;
             this.noOfNearDeaths = noOfNearDeaths;
             this.phPreference = phPreference;
+            this.tasty = tasty;
         }
     }
-
     class Program
     {
         static void Main(string[] args)
