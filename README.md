@@ -9,6 +9,9 @@ Create a new branch for a feature you are working on
 
 ## Step 2. 
 Use this branch to test and push new features without affecting the main branch. Only work in this branch until you are fully finished with a feature. 
+### If using visual studio to interact with git:
+Add the .gitignore file to make it so you do not commit unwanted files from your directory
+![image](https://user-images.githubusercontent.com/78988335/220924050-9d88577d-8bd4-4e0c-bf96-3b384e87438a.png)
 
 ## Step 3.
 When the feature is completed head over to pull requests in this repository you are currently working in.
