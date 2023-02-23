@@ -1,0 +1,5 @@
+C:\Users\17Palmer.C\Source\Repos\NGPY\THS-Animal\obj\Debug\net6.0\Animals.csproj.AssemblyReference.cache
+C:\Users\17Palmer.C\Source\Repos\NGPY\THS-Animal\obj\Debug\net6.0\Animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\17Palmer.C\Source\Repos\NGPY\THS-Animal\obj\Debug\net6.0\Animals.AssemblyInfoInputs.cache
+C:\Users\17Palmer.C\Source\Repos\NGPY\THS-Animal\obj\Debug\net6.0\Animals.AssemblyInfo.cs
+C:\Users\17Palmer.C\Source\Repos\NGPY\THS-Animal\obj\Debug\net6.0\Animals.csproj.CoreCompileInputs.cache
