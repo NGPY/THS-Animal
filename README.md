@@ -1,5 +1,6 @@
 # THS-Animal tutorial on how to commit to this repository
 This is just a quick run down on how to commit to this repository as it is not possible to push straight to main.
+#Notice: Please only commit changes to the Program.cs file, other changes cause conflicts
 ## Step 1.
 Create a new branch for a feature you are working on
 
