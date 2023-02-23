@@ -51,6 +51,17 @@
             cheekiness = cheek;
         }
     }
+    class Snake : Pets
+    {
+        private bool venemous { get;}
+        private string colour { get;}
+        public Snake(bool myHair, string MyhairCol, double mySize, string mySound, string myFood, string mNati, string br, bool venemous, string colour):
+            base(myHair, MyhairCol, mySize, mySound, myFood, mNati, br)
+        {
+            this.venemous = venemous;
+            this.colour = colour;
+        }
+    }
 
     class Program
     {
